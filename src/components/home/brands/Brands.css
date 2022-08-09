@@ -1,0 +1,248 @@
+.merch-brands {
+  display: flex;
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+  flex-direction: row-reverse;
+}
+.hide {
+  display: none;
+}
+.brand-cont {
+  padding-left: 2.5rem;
+}
+.brands-top {
+  padding-right: 4rem;
+  padding-top: 2rem;
+}
+.brands-top h6 {
+  color: #dba90f;
+  font-size: 1rem;
+  font-weight: 600;
+  width: 36rem;
+  height: 1.5rem;
+  margin-top: 3rem;
+}
+.brands-top h3 {
+  width: 33.3125rem;
+  font-size: 1.75rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: #101828;
+}
+.brands-bottom p {
+  width: 36rem;
+  color: #667085;
+  padding-bottom: 2.5rem;
+}
+
+.brand-img img {
+  width: 100%;
+  height: 100%;
+}
+/* // Small devices (landscape phones, less than 557px) */
+@media (min-width: 320px) and (max-width: 480px) {
+  .merch-brands {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .brand-cont {
+    padding-left: 7px;
+    width: fit-content;
+  }
+
+  .brands-top {
+    padding-right: 2rem;
+    padding-bottom: 1.25rem;
+    width: fit-content;
+  }
+
+  .brands-top h6 {
+    margin-top: 0rem;
+    font-size: 1rem;
+    width: fit-content;
+    line-height: 1.5rem;
+    padding-right: 1.875rem;
+  }
+
+  .brands-top h3 {
+    width: fit-content;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    margin: 0;
+    padding: 0;
+  }
+  .brands-bottom p {
+    width: fit-content;
+    color: #667085;
+    padding-bottom: 2.5rem;
+  }
+
+  .brand-img {
+    padding-top: 3.1875rem;
+    padding-left: 7px;
+    border-radius: 0.5rem;
+  }
+
+  .brand-img > img {
+    height: 14.3125rem;
+    min-width: 280px;
+    border-radius: 0.5rem;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  /* .brand-cont {
+    padding: 2rem 0;
+  } */
+  .hide {
+    display: block;
+  }
+  .hide > img {
+    width: 100%;
+  }
+  .merch-brands {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .brand-cont {
+    padding-left: 7px;
+    width: fit-content;
+  }
+
+  .brands-top {
+    padding-right: 2rem;
+    padding-bottom: 1.25rem;
+    width: fit-content;
+  }
+
+  .brands-top h6 {
+    margin-top: 0rem;
+    font-size: 1rem;
+    width: fit-content;
+    line-height: 1.5rem;
+    padding-right: 1.875rem;
+  }
+
+  .brands-top h3 {
+    width: fit-content;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    margin: 0;
+    padding: 0;
+  }
+  .brands-bottom p {
+    width: fit-content;
+    color: #667085;
+    padding-bottom: 2.5rem;
+  }
+
+  .brand-img {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hide {
+    display: block;
+  }
+  .hide > img {
+    width: 100%;
+    height: 500px;
+  }
+  .brand-cont {
+    width: fit-content;
+  }
+
+  .brand-img {
+    display: none;
+  }
+  .brands-top h6 {
+    margin-top: 0rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    padding-right: 1.875rem;
+  }
+  .brands-top h3 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: fit-content;
+    font-size: 2.55rem;
+    font-weight: 600;
+  }
+  .brands-bottom p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    width: 100%;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .hide {
+    display: block;
+  }
+  .hide > img {
+    width: 100%;
+  }
+  .brand-cont {
+    width: fit-content;
+  }
+
+  .brand-img {
+    display: none;
+  }
+  .brands-top h6 {
+    margin-top: 0rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    padding-right: 1.875rem;
+  }
+  .brands-top h3 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: fit-content;
+    font-size: 2.55rem;
+    font-weight: 600;
+  }
+  .brands-bottom p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    width: 100%;
+  }
+}
+
+/* @media (min-width: 1281px) {
+   .hide {
+    display: none;
+  }
+
+  .brand-cont {
+    width: fit-content;
+  }
+
+  .brand-img {
+    display: block;
+    width: 100%;
+  }
+  .brands-top h6 {
+    margin-top: 0rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    padding-right: 1.875rem;
+  }
+  .brands-top h3 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: fit-content;
+    font-size: 2.55rem;
+    font-weight: 600;
+  }
+  .brands-bottom p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    width: 100%;
+  }
+} */

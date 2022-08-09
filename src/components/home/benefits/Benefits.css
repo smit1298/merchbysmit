@@ -1,0 +1,37 @@
+.benefit {
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+}
+.benefit h6 {
+  color: #dba90f;
+}
+.benefit p {
+  color: #667085;
+}
+.benefit-cont {
+  margin-bottom: 1.5rem;
+}
+
+.benefit-cont h3 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.benefit-cont p {
+  margin-left: 1rem;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #667085;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .benefit-cont {
+    width: 300px;
+    margin: 2rem auto;
+  }
+
+  .benefit-cont p {
+    width: 300px;
+    margin: 0 auto;
+  }
+}

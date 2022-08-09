@@ -1,0 +1,79 @@
+.navbar {
+  width: 100% !important;
+  height: 80px;
+  font-family: "Campton", sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+#navbarScroll {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#navbarScroll {
+  background-color: white !important;
+  z-index: 100 !important;
+  width: 100% !important;
+  /* box-shadow: 2px 2px whitesmoke; */
+}
+
+#shop {
+  color: #667085;
+}
+
+.nav-link{
+  text-decoration: none;
+}
+
+.link-home, .link-contact, .link-shop, .link-register {
+color: #dba90f!important;
+text-decoration: none;
+}
+
+.register {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 18px;
+  gap: 8px;
+  background-color: #566bd9 !important;
+  color: #fff !important;
+  border-radius: 8px;
+  width: 200px !important;
+  height: 44px;
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .logo > img {
+    width: 45px;
+    height: 45px;
+  }
+  .minimize {
+    margin-top: 10px;
+  }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .logo > img {
+    width: 40px;
+    height: 40px;
+  }
+  .minimize {
+    margin-top: 9px;
+    margin-bottom: 9px;
+  }
+}
+
+/* // Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) { ... }
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width */

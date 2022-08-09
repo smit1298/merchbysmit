@@ -1,0 +1,100 @@
+.real {
+  background-color: #fefaec;
+  width: fit-content;
+}
+.chateau {
+  background-color: #fefaec;
+  padding: 0;
+  margin: 0;
+}
+.all {
+  margin: 0;
+  padding: 0;
+}
+
+.chateau-img {
+  text-align: center;
+  margin-top: 96px;
+  margin-bottom: 46px;
+}
+.quote {
+  text-align: center;
+}
+.quote h3 {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  margin: 0 255px;
+}
+.quote img {
+  margin: 32px 0 16px 0;
+}
+.quote h4 {
+  margin-bottom: 4px;
+}
+.quote p {
+  margin-bottom: 96px;
+}
+/* Small devices (landscape phones, less than 557px) */
+@media (min-width: 320px) and (max-width: 480px) {
+  .chateau-img {
+    text-align: center;
+    margin-top: 96px;
+    margin-bottom: 46px;
+  }
+  .quote {
+    text-align: center;
+  }
+  .quote h3 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    margin: 0;
+  }
+  .quote img {
+    margin: 46px 0 16px 0;
+  }
+  .quote h4 {
+    margin-bottom: 4px;
+  }
+  .quote p {
+    margin-bottom: 37px;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+ 
+  .chateau-img {
+    text-align: center;
+    margin-top: 96px;
+    margin-bottom: 46px;
+  }
+  .quote {
+    text-align: center;
+  }
+  .quote h3 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    margin: 0;
+  }
+  .quote img {
+    margin: 46px 0 16px 0;
+  }
+  .quote h4 {
+    margin-bottom: 4px;
+  }
+  .quote p {
+    margin-bottom: 37px;
+  }}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .quote h3 {
+    width: 90%;
+    margin: 0 auto;
+  }
+}

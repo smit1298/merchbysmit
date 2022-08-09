@@ -1,0 +1,73 @@
+.newsletter {
+  display: flex;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.join h5 {
+  margin: 48px 0 8px 0;
+  text-align: left;
+  color: #101828;
+}
+.join p {
+  margin-bottom: 32px;
+  color: #667085;
+  text-align: left;
+}
+
+.subscribe-text {
+  border: 1px solid #d0d5dd;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 24px;
+  border-radius: 0.5rem;
+  height: 44px;
+  margin-right: 16px;
+  padding-left: 1rem;
+}
+
+.subscribe-btn {
+  margin-bottom: 77px;
+  height: 44px;
+}
+
+
+.input-btn {
+  display: flex;
+  margin-top: 48px;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 556.98px) {
+  .join h5 {
+    margin: 48px 0 8px 0;
+  }
+  .join p {
+    margin-bottom: 32px;
+  }
+  .newsletter {
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .subscribe{
+        margin-bottom: 77px;
+
+  }
+  .subscribe-text {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 24px;
+    border-radius: 0.5rem;
+  }
+  .subscribe-btn {
+    width: 100%;
+  }
+
+  .input-btn {
+    display: block;
+  }
+}

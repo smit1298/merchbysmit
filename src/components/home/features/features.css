@@ -1,0 +1,149 @@
+.top > h4 {
+  color: #dba90f;
+  font-size: 1rem;
+  font-weight: 600;
+  padding-bottom: 0.75rem;
+}
+
+.top > h3 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 2.25rem;
+  color: #101828;
+  padding-bottom: 1.25rem;
+}
+
+.top > p {
+  font-size: 1.25rem;
+  color: #667085;
+  font-weight: 400;
+  line-height: 1.875rem;
+}
+
+.feature-cont {
+  padding-left: 1.5rem;
+  gap: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.plat-details {
+  flex-direction: row-reverse;
+}
+
+.feature-cont > img {
+  padding-bottom: 1.5rem;
+}
+
+.feature-description > h3 {
+  font-size: 1.875rem;
+  line-height: 2.375rem;
+}
+
+.feature-description > p {
+  color: #667085;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 350;
+  padding-bottom: 2rem;
+  margin-right: 2rem;
+}
+
+.feature-description > ul {
+  list-style: none;
+  color: #667085;
+  font-weight: 350;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.feature-description > ul > li {
+  padding-bottom: 1.25rem;
+}
+
+.imgCont {
+  width: 576px;
+  height: 400px;
+  border-radius: 0.5rem;
+  flex-grow: 0;
+}
+
+/* Small devices (landscape phones, less than 557px) */
+@media (max-width: 556.98px) {
+  .top {
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: 0.75rem;
+    width: fit-content;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .feature-cont {
+    display: block;
+    padding: 0;
+    gap: 2rem;
+    max-width: max-content;
+  }
+
+  .feature-cont > img {
+    padding-bottom: 1.5rem;
+  }
+
+  .feature-cont > h3 {
+    font-size: 1.875rem;
+    line-height: 2.375rem;
+  }
+
+  .feature-cont > p {
+    color: #667085;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 30px;
+    color: #667085;
+    margin-right: 1rem;
+  }
+
+  .feature-description > ul {
+    list-style: none;
+    color: #667085;
+    font-weight: 350;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    padding: 0;
+    margin: 0;
+  }
+  .feature-description > p {
+    margin-right: 0;
+  }
+  .feature-description > ul > li {
+    padding-bottom: 1.25rem;
+    width: 100%;
+  }
+
+  .imgCont {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-left: 0;
+  }
+  .plat-details img {
+    margin-right: 0;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .feature-cont {
+    display: block;
+  }
+  .imgCont{
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .feature-cont {
+    display: block;
+  }
+
+}

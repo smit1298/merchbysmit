@@ -1,0 +1,239 @@
+.contact-head {
+  text-align: center;
+  padding-top: 6rem;
+}
+.contact-head h6 {
+  color: #dba90f;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding-bottom: 0.75rem;
+}
+.contact-head h1 {
+  font-weight: 400;
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #101828;
+  padding-bottom: 1.25rem;
+}
+.contact-head p {
+  color: #667085;
+  font-weight: 350;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.contact-form {
+  padding-top: 4rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #344054;
+  font-size: 0.875rem;
+}
+.contact-form input {
+  height: 3rem;
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+
+#firstname input {
+  width: 14rem;
+}
+#lastname input {
+  width: 14rem;
+}
+#email input {
+  width: 31rem;
+}
+#phone-number {
+  width: 31rem;
+}
+
+#message input {
+  height: 8rem;
+  width: 31rem;
+}
+.checked {
+  color: #667085;
+}
+.checked input {
+  width: 1.25rem;
+  height: 1.25rem;
+  border: 1px solid #d0d5dd;
+  border-radius: 6px;
+  background: #ffffff;
+  margin-right: 2rem;
+}
+.checked a {
+  color: #667085;
+}
+
+.contact-form button {
+  width: 31rem;
+  margin-bottom: 6rem;
+  margin-left: 1rem;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .contact-container {
+    margin: 4rem 0;
+    padding: 0;
+  }
+  .contact-head {
+    width: fit-content;
+    padding-top: 2.5rem;
+    text-align: left;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-bottom: 3rem;
+  }
+  .contact-head h6 {
+    margin-bottom: 0;
+    font-size: 0.875rem;
+    width: fit-content;
+  }
+  .contact-head h1 {
+    text-align: left;
+    margin-top: 0.375rem;
+    font-size: 2.25rem;
+    width: fit-content;
+    font-weight: 400;
+  }
+  .contact-head p {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    width: fit-content;
+  }
+  .names {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .names input {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  .names label {
+    margin: 0 !important;
+  }
+
+  #email {
+    width: 100%;
+  }
+
+  #email input {
+    width: 90%;
+    margin: 0 1rem !important;
+  }
+  #phone-number {
+    width: 100%;
+  }
+  #phone {
+    width: 100%;
+  }
+  #message {
+    width: 100%;
+  }
+  #message input {
+    width: 90%;
+    margin: 0 1rem !important;
+  }
+  .contact-form label {
+    margin: 0;
+    padding: 0;
+    margin-left: 1rem;
+  }
+
+  .checked input {
+    margin-right: 0.5rem;
+  }
+  .create {
+    width: 90% !important;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+   .contact-container {
+    margin: 4rem 0;
+    padding: 0;
+  }
+  .contact-head {
+    width: fit-content;
+    padding-top: 2.5rem;
+    text-align: left;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-bottom: 3rem;
+  }
+  .contact-head h6 {
+    margin-bottom: 0;
+    font-size: 0.875rem;
+    width: fit-content;
+  }
+  .contact-head h1 {
+    text-align: left;
+    margin-top: 0.375rem;
+    font-size: 2.25rem;
+    width: fit-content;
+    font-weight: 400;
+  }
+  .contact-head p {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    width: fit-content;
+  }
+  .names {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .names input {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  .names label {
+    margin: 0 !important;
+  }
+
+  #email {
+    width: 100%;
+  }
+
+  #email input {
+    width: 90%;
+    margin: 0 1rem !important;
+  }
+  #phone-number {
+    width: 100%;
+  }
+  #phone {
+    width: 100%;
+  }
+  #message {
+    width: 100%;
+  }
+  #message input {
+    width: 90%;
+    margin: 0 1rem !important;
+  }
+  .contact-form label {
+    margin: 0;
+    padding: 0;
+    margin-left: 1rem;
+  }
+
+  .checked input {
+    margin-right: 0.5rem;
+  }
+  .create {
+    width: 90% !important;
+  }
+}
+
+ 

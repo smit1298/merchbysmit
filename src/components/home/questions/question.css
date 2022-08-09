@@ -1,0 +1,130 @@
+.all-question {
+  padding: 0 !important;
+  margin: 0;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+}
+
+.card {
+  text-align: left;
+  border: #fff !important;
+  margin-bottom: 4rem;
+}
+
+.accordion-row {
+  width: fit-content;
+}
+.signs {
+  margin-left: 2rem;
+}
+
+.card-header {
+  background-color: #fff !important;
+  border-bottom: 2px solid #eaecf0 !important;
+  padding: 0 auto !important;
+}
+
+.texts {
+  justify-content: space-between;
+  display: flex;
+}
+
+/* avatar */
+.avatars {
+  background-color: #f9fafb;
+  /* width: 76rem; */
+  border-radius: 1rem;
+}
+.avatar {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+.img {
+  display: flex;
+}
+/* .avatar h3*/
+.img img:nth-child(1) {
+  z-index: 4 !important;
+  margin-left: -25px;
+}
+.img img:nth-child(2) {
+  z-index: 5 !important;
+  margin-left: -25px;
+}
+.img img:nth-child(3) {
+  z-index: 6 !important;
+  margin-left: -25px;
+}
+.img img:nth-child(4) {
+  z-index: 7 !important;
+  margin-left: -25px;
+}
+.questions h3 {
+  font-size: 1.25rem;
+  color: #101828;
+}
+.questions p {
+  color: #667085;
+  font-weight: 300;
+}
+.answer {
+  color: #667085;
+  font-weight: 300;
+  font-size: 1rem;
+}
+.avatars > button {
+  margin-bottom: 2rem;
+}
+.link-btn {
+  padding-bottom: 2rem;
+  text-decoration: none;
+}
+/* 
+@media (max-width: 556.98px) {
+  .all-question {
+    padding: 0 !important;
+  }
+  .avatars {
+    margin: 0rem;
+    padding: 0;
+    border-radius: 0;
+  }
+  .texts{
+    justify-content: unset;
+  }
+
+  .signs{
+    margin-left: 0.5rem;
+  }
+  .accordion {
+  margin: 0 auto;
+  }
+  .frequent h3 {
+    padding-left: 2rem;
+    font-size: 1.25rem !important;
+  }
+  .frequent p {
+    padding-left: 2rem;
+    font-size: 1rem !important;
+    font-weight: 300;
+    color: #667085;
+  }
+  .avatar {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+  }
+
+  .questions h3 {
+    padding-left: 2.9375rem;
+    padding-right: 2.9375rem;
+  }
+  .questions p {
+    padding-left: 2.9375rem;
+    padding-right: 2.9375rem;
+    font-weight: 300;
+  }
+  .card {
+    width: 18rem !important;
+  }
+} */

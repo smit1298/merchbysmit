@@ -1,0 +1,95 @@
+
+#trusted-brands {
+  background: #f9fafb;
+  overflow: hidden;
+}
+.trusted-center {
+  text-align: center;
+}
+.trusted-text {
+  color: #667085;
+  font-size: 1 rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+
+/* image sliders */
+.media-scroller {
+  --_spacer: var(--size-3);
+  display: grid;
+  gap: var(--_spacer);
+  grid-auto-flow: column;
+  grid-auto-columns: 15%;
+  padding: 0 var(--_spacer) var(--_spacer);
+  overflow-x: scroll;
+  overscroll-behavior-inline: contain;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.media-scroller::-webkit-scrollbar {
+  display: none;
+}
+
+.media-scroller--with-groups {
+  grid-auto-columns: 80%;
+}
+
+.media-group {
+  display: grid;
+  gap: var(--_spacer);
+  grid-auto-flow: column;
+}
+
+.media-element {
+  display: grid;
+  grid-template-rows: min-content;
+  gap: 3px;
+  padding: var(--_spacer);
+  border-radius: var(--radius-2);
+  width: 100px;
+}
+
+.media-element > img {
+  inline-size: 100%;
+  object-fit: cover;
+  width: 80px;
+}
+
+#allimages {
+  width: 90.625rem;
+}
+#allimages img {
+  padding-bottom: 6rem;
+  padding-top: 3.5rem;
+  padding-left: 1.1125rem;
+}
+
+.grey-image {
+  padding-left: 0.505rem;
+}
+
+.grey-image img {
+  padding-left: 3.2rem;
+  overflow: hidden;
+}
+
+/* // Small devices (landscape phones, less than 557px) */
+@media (min-width: 320px) and (max-width: 558px) {
+  .media-scroller {
+    width: fit-content;
+    --_spacer: var(--size-3);
+    display: grid;
+    gap: var(--_spacer);
+    grid-auto-flow: column;
+    grid-auto-columns: 45%;
+    padding: 0 var(--_spacer) var(--_spacer);
+    overflow-x: scroll;
+    overscroll-behavior-inline: contain;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-right: 0;
+    padding: 0;
+  }  
+}
+
